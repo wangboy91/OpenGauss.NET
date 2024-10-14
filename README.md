@@ -7,6 +7,23 @@
 容器安装
 https://hub.docker.com/r/opengauss/opengauss
 
+···
+version: '5.0.0'
+
+services:
+
+  opengauss:
+    image: opengauss/opengauss:5.0.0
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      GS_PASSWORD: openGauss@123
+    privileged: true
+    volumes:
+      - ./data/:/var/lib/opengauss/data/
+···
+
 本地推荐工具 使用
 DBeaver
 驱动
