@@ -26,7 +26,11 @@ services:
 
 本地推荐工具 使用
 DBeaver
-驱动
+可以手动下载驱动
 https://mvnrepository.com/artifact/org.opengauss/opengauss-jdbc
+
 工具链接url
-例如：jdbc:postgresql://localhost:5432/test
+
+jdbc:postgresql://localhost:5432/postgres
+用户名:gaussdb
+密码:openGauss@123
