@@ -7,7 +7,7 @@
 容器安装
 https://hub.docker.com/r/opengauss/opengauss
 
-···
+```
 version: '5.0.0'
 
 services:
@@ -22,7 +22,7 @@ services:
     privileged: true
     volumes:
       - ./data/:/var/lib/opengauss/data/
-···
+```
 
 本地推荐工具 使用
 DBeaver
