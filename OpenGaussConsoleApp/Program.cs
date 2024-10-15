@@ -5,7 +5,7 @@ using OpenGauss.NET;
 Console.WriteLine("Hello, World!");
 
 
-var connString = "Server=localhost;Port=5432;Username=gaussdb;Password=openGauss@123;Database=test;Timeout=60;Command Timeout=60";
+var connString = "Server=localhost;Port=50432;Username=gaussdb;Password=openGauss@123;Database=testdb;Timeout=60;Command Timeout=60";
 
 var connection = new OpenGaussConnection(connString);
 await connection.OpenAsync();
