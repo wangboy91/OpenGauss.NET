@@ -29,17 +29,18 @@ services:
       - ./data/:/var/lib/opengauss/data/
 ```
 
-本地推荐工具 使用
-DBeaver
-可以手动下载驱动 
+本地推荐工具 使用 DBeaver 可以手动下载驱动 
 https://mvnrepository.com/artifact/org.opengauss/opengauss-jdbc
+
 驱动名称：GS (随便填)
+
 驱动类型：Generic （不用动）
+
 类名： org.postgresql.Driver 【需要填写正确】
+
 URL模板： jdbc:postgresql://{host}[:{port}]/[{database}]  【需要填写正确】
 
-
-工具链接url
+测试参数链接url
 
 jdbc:postgresql://localhost:5432/postgres
 用户名:gaussdb
