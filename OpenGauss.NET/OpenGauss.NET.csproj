@@ -1,12 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Authors>Microestc</Authors>
-		<Description>OpenGauss is the open source .NET data provider.</Description>
+		<Authors>opengauss</Authors>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<TargetFrameworks>netstandard2.0;netcoreapp3.1;net5.0;net6.0;net8.0</TargetFrameworks>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<LangVersion>latest</LangVersion>
+		<AssemblyName>OpenGauss.Net</AssemblyName>
+		<RootNamespace>WBoy.OpenGauss.NET</RootNamespace>
+		<PackageId>WBoy.OpenGauss.NET</PackageId>
+		<Description>OpenGauss is the open source .NET data provider.</Description>
+		<PackageTags>Gaussdb;openGaussdb;sql</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/wangboy91/OpenGauss.NET;https://gitee.com/opengauss/openGauss-connector-adonet</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/wangboy91/OpenGauss.NET;https://gitee.com/opengauss/openGauss-connector-adonet</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>

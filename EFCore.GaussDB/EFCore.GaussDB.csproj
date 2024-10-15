@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Authors>Microestc</Authors>
+        <Description>GaussDB provider for Entity Framework Core.</Description>
+        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\OpenGauss.NET\OpenGauss.NET.csproj" />
+    </ItemGroup>
+
+</Project>
