@@ -1,5 +1,7 @@
 #移植华为openGauss 支持.net 8.0
 
+nuget包 WBoy.OpenGauss.NET
+
 参考 
 https://gitee.com/opengauss/openGauss-connector-adonet
 
