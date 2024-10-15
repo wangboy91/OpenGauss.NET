@@ -12,7 +12,8 @@ https://hub.docker.com/r/opengauss/opengauss
 
 https://hub.docker.com/r/enmotech/opengauss
 
-```
+可以定义如下docker-compose.yml
+```yaml
 version: '5.0.0'
 
 services:
