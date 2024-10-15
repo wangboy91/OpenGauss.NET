@@ -7,7 +7,7 @@ https://gitee.com/opengauss/openGauss-connector-adonet
 
 ## 1. 安装openGauss
 
-容器安装
+容器来源
 https://hub.docker.com/r/opengauss/opengauss
 
 https://hub.docker.com/r/enmotech/opengauss
