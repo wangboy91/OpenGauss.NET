@@ -28,6 +28,7 @@ services:
     privileged: true
     volumes:
       - ./data/:/var/lib/opengauss/data/
+
 ```
 
 本地推荐工具 使用 DBeaver 可以手动下载驱动 
